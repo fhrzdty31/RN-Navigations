@@ -2,7 +2,7 @@ import { useState } from "react"
 import { NativeBaseProvider, Text, Input, Button } from "native-base"
 
 const MoveScreenforResult = ({
-    route, navigation
+    navigation
 }) => {
 
     const [word, setWord] = useState("")
@@ -17,7 +17,7 @@ const MoveScreenforResult = ({
                     word
                 },
                 merge: true
-            })} fontWeight={"bold"} rounded={"xl"} margin={"10"}>Back</Button>
+            })} fontWeight={"bold"} rounded={"xl"} margin={"10"}>Send</Button>
         </NativeBaseProvider>
     )
 }

@@ -8,10 +8,10 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import Home from './pages/Home'
-import MoveScreen from "./pages/MoveScreen";
-import MoveScreenwithData from "./pages/MoveScreenwithData";
-import MoveScreenforResult from "./pages/MoveScreenforResult";
+import Home from './views/Home'
+import MoveScreen from "./views/MoveScreen";
+import MoveScreenwithData from "./views/MoveScreenwithData";
+import MoveScreenforResult from "./views/MoveScreenforResult";
 
 const Stack = createNativeStackNavigator()
 
